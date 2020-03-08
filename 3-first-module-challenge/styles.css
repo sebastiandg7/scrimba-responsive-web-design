@@ -1,0 +1,109 @@
+/* ===========
+Typography
+=========== */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1,
+h2,
+strong {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* ===========
+Layout
+=========== */
+
+header,
+section {
+  padding: 45px 0;
+}
+
+.page-container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 18px 0;
+}
+
+.page-container p {
+  margin: 18px 0;
+}
+
+/* ===========
+Styles
+=========== */
+
+body {
+  color: #2e354f;
+}
+
+.page-container > h2 {
+  color: #ef5839;
+}
+
+header,
+.section-two {
+  background: #2e354f;
+  color: white;
+}
+
+.link {
+  color: #ef5839;
+  text-decoration: underline;
+}
+
+.link:hover,
+.link:focus {
+  color: lightblue;
+  cursor: pointer;
+}
+
+/* ===========
+Buttons
+=========== */
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: 900;
+}
+
+.btn-accent {
+  border: 2px solid #ef5839;
+  background: #ef5839;
+  color: white;
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+  background: white;
+  color: #ef5839;
+}
+
+.btn-primary {
+  border: 2px solid white;
+  background: white;
+  color: #2e354f;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  border: 2px solid white;
+  background: #2e354f;
+  color: white;
+}
