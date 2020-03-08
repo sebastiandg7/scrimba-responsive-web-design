@@ -4,6 +4,8 @@ In this example we built a very simple blog post. Getting started with layout co
 - Starting to override some CSS defaults
 - Centering content
 
+See it live __<a href="https://sebastiandg7.github.io/scrimba-responsive-web-design/1-an-awesome-blog-post/" target="_blank">here</a>__ !
+
 ## HTML, CSS & Result
 ### HTML
 ![][html]

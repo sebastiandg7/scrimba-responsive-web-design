@@ -1,16 +1,19 @@
-# Putting it all together
+# #3 - First module challenge
+In this example we built another sectioned website and used all of the accquired concepts until now.
+- Introduced the container element concept
+- Introduced generic theme CSS classes (.btn .btn-primary)
 
-## Supporting Scrimba
+See it live __<a href="https://sebastiandg7.github.io/scrimba-responsive-web-design/3-first-module-challenge/" target="_blank">here</a>__ !
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+## HTML, CSS & Result
+### HTML
+![][html]
+### CSS
+For the styling. See the complete styles at [styles.css](styles.css)
+![][css]
+### RESULT
+![][result]
 
-- [Become a professional React developer](https://scrimba.com/g/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/g/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/g/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
+[html]: docs/3-html.png
+[css]: docs/3-css.png
+[result]: docs/3-result.png
