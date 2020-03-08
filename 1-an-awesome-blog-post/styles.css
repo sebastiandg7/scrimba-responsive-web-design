@@ -1,0 +1,86 @@
+/* ===========
+CSS Reset
+=========== */
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+/* ===========
+Typography
+=========== */
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+
+/* ===========
+Layout
+=========== */
+header {
+  margin: 45px auto;
+  text-align: center;
+}
+
+.post {
+  width: 450px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: justify;
+}
+
+.post-header {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.post-header > img {
+  width: 100%;
+}
+
+.read-more {
+  margin: 0;
+}
+
+/* ===========
+Styling
+=========== */
+
+.blog-title {
+  color: #2e7ad3;
+}
+
+.post {
+  background-color: #f1f1f1;
+}
+
+.post-title {
+  color: #104c90;
+}
+
+.post a {
+  color: #ff8000;
+  font-weight: bold;
+}
+
+.post a:hover,
+.post a:focus {
+  color: #2e7ad3;
+}
+
+.post a:active {
+  color: #24d30c;
+}
