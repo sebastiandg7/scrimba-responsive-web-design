@@ -1,4 +1,4 @@
-# #3 - First module challenge
+# #4 - Responsive Layouts
 In this example responsive layouts started to play in.
 - Basic column based layout using flex box.
 - Introduced the CSS media queries. Used to change the layout according to a defined media property/type
