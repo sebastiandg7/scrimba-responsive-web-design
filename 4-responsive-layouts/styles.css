@@ -1,0 +1,102 @@
+/* ============
+Typography
+============= */
+body {
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ============
+Layout
+============= */
+.header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+h1 {
+  margin-bottom: 0.7em;
+}
+
+h2 {
+  margin-bottom: 0.7em;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 95%;
+  max-width: 980px;
+  margin: 1em auto;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+/* ============
+Styles
+============= */
+body {
+  color: #707070;
+}
+
+h1 {
+  color: #312614;
+}
+
+h1 > span {
+  color: #b7832f;
+}
+
+.col-bg {
+  background-color: #312614;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+@media screen and (max-width: 700px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
+}
